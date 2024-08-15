@@ -44,7 +44,6 @@ body{
 }
 
 #title{
-  color: #cbd5e1;
   font-size: 2.25rem;
   position: relative;
 }
@@ -146,7 +145,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: o.6rem;
+  gap: 0.6rem;
   font-size: 0.875rem;
   text-decoration: none;
   transition: color 0.5s;
