@@ -44,7 +44,7 @@ body{
 }
 
 #title{
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   position: relative;
 }
 
@@ -59,13 +59,13 @@ body{
   border-radius: 3px;
 }
 
-.imput-box label{
+.input-box label{
   font-size: 1.1rem;
   color: #cbd5e1;
   font-weight: 500 ;
 }
 
-.imput-field{
+.input-field{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -75,14 +75,14 @@ body{
   margin-top: 3px;
 }
 
-.imput-field span,
-.imput-field i{
+.input-field span,
+.input-field i{
   color: #cbd5e1;
   font-size: 1.3rem;
   padding: 0.6rem 1rem;
 }
 
-.imput-field input{
+.input-field input{
   background-color: transparent;
   border: none;
   width: 100%;
@@ -91,12 +91,12 @@ body{
   padding: 0 0.5rem;
 }
 
-.imput-field input::-webkit-outer-spin-button,
-.imput-field input::-webkit-inner-spin-button{
+.input-field input::-webkit-outer-spin-button,
+.input-field input::-webkit-inner-spin-button{
   appearance: none;
 }
 
-.imput-field input:focus{
+.input-field input:focus{
   outline: none;
 }
 
@@ -153,6 +153,9 @@ body{
 
 #more_info a:hover{
   color: #cbd5e1;
+}
+.hidden{
+  display: none;
 }
 
 .normal{
