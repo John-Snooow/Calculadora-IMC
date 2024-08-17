@@ -136,6 +136,7 @@ body{
 }
 
 #more_info{
+  display: block;
   border-top: 1px solid #ffffff34;
   padding-top: 1.5rem;
 }
